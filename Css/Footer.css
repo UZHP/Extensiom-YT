@@ -1,0 +1,156 @@
+/* Footer */
+
+.endOfPage {
+    background-color: #000;
+    padding: 20px 50px;
+    color: #FFF;
+    border-top: 1px solid #FFF;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.25);
+}
+
+/* Left */
+
+.endLinks {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.textEndLinks {
+    /* Text */
+    color: #FFF;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.faceBookLinkIcon a {
+    text-transform: capitalize;
+}
+
+.twitterLinkIcon a,
+.instagramLinkIcon a,
+.githubLinkIcon a,
+.linkedinLinkIcon a {
+    text-transform: uppercase;
+}
+
+.faceBookLinkIcon a,
+.twitterLinkIcon a,
+.instagramLinkIcon a,
+.githubLinkIcon a,
+.linkedinLinkIcon a {
+    color: #CCC;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.faceBookLinkIcon a:hover,
+.twitterLinkIcon a:hover,
+.instagramLinkIcon a:hover,
+.githubLinkIcon a:hover,
+.linkedinLinkIcon a:hover {
+    color: #0073b1;
+}
+
+/* Center */
+
+.endSections {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.pageSectionText {
+    /* Text */
+    color: #FFF;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.homeSection a,
+.aboutUsSection a,
+.connectUsSection a,
+.serviceSection a,
+.productsSection a {
+    color: #CCC;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.homeSection a:hover,
+.aboutUsSection a:hover,
+.connectUsSection a:hover,
+.serviceSection a:hover,
+.productsSection a:hover {
+    color: #0073b1;
+}
+
+/* Right */
+
+.flexText {
+    display: grid;
+    text-transform: capitalize;
+}
+
+.do {
+    margin-right: 5px;
+}
+
+.EXEdo {
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.EXEdo:hover {
+    color: #0073b1;
+}
+
+.YTdo {
+    margin-right: 5px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.YTdo:hover {
+    color: #b10000;
+}
+
+.headText {
+    color: #FFF;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.firstText {
+    display: inline-flex;
+    align-items: center;
+    max-width: 500px;
+    word-wrap: break-word;
+    word-break: keep-all;
+    margin-bottom: 10px;
+}
+
+.endText {
+    display: flex;
+    align-items: flex-end;
+    max-width: 500px;
+    word-wrap: break-word;
+    word-break: keep-all;
+}

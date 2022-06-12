@@ -1,0 +1,79 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* For Time Only
+body {
+    overflow: hidden;
+} */
+
+p::selection,
+span::selection,
+a::selection,
+sup::selection,
+ul::selection {
+    background-color: transparent;
+    color: #0073b1;
+}
+
+.mainCenter::selection,
+.twoCenter::selection,
+.textEndLinks::selection,
+.pageSectionText::selection,
+.headText::selection {
+    color: #CCC;
+}
+
+img::selection {
+    background-color: transparent;
+}
+
+body .allPage {
+    color: #FFF;
+    background-color: #101010;
+    /* background-image: url("../Image/bootstrap.jpg"); */
+    font-family: "ink free", sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: #222;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 5px;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+input {
+    all: unset;
+}
